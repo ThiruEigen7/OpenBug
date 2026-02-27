@@ -427,7 +427,7 @@ def build_agent():
     )
 
     agent = create_agent(
-        llm=llm,
+        model=llm,
         tools=TOOLS,
         system_prompt=SYSTEM_PROMPT,
     )
