@@ -100,5 +100,6 @@ def search_documents(query: str) -> list:
 
 if __name__ =="__main__":
    print("Starting MCP Server....")
-   mcp.run(transport="sse")
+   print("MCP Server running at http://localhost:8000/sse")
+   mcp.run(transport="sse", host="localhost", port=8000)
 #    mcp.run(transport="stdio")

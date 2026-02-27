@@ -7,8 +7,6 @@ pandas
 langchain
 langgraph
 langsmith
-fastmcp
-pathlib
-openai
+langchain-google-genai
 python-dotenv
 httpx
