@@ -105,10 +105,6 @@ def format_chunk(chunk: dict) -> str:
     return "\n".join(f"{ln}: {text}" for ln, text in chunk["lines"])
 
 
-# ═══════════════════════════════════════════════════════════════════════════════
-#  3. MCP CLIENT — call search_documents via FastMCP Client (async)
-# ═══════════════════════════════════════════════════════════════════════════════
-
 # Global MCP client — connects to the SSE endpoint
 mcp_client = MCPClient(MCP_SSE_URL)
 
