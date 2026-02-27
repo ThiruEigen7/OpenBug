@@ -1,0 +1,14 @@
+huggingface-hub
+llama_index==0.14.13
+llama_index_embeddings_huggingface
+fastmcp==2.14.5
+numpy
+pandas
+langchain
+langgraph
+langsmith
+fastmcp
+pathlib
+openai
+python-dotenv
+httpx
